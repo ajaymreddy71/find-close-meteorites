@@ -43,3 +43,7 @@ git push
 
 git log (press q to quit)
 pipenv install -d ipython
+
+pipenv run ipython
+from meteors import find_meteors
+find_meteors.calc_dist(0,0,5,5)
