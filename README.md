@@ -35,3 +35,7 @@ mkdir meteors
 
 git mv find_meteors.py meteors/
 pipenv run python meteors/find_meteors.py
+
+git add README.md
+git commit -m "Moved file to meteors directory"
+git push
