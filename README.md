@@ -25,3 +25,13 @@ git status
 git commit (:q to quit)
 git commit -m "Added find_meteors.py file and modified the Readme file"
 git push
+git push origin master
+
+
+git add .gitignore README.md Pipfile
+git commit -m "Use pipenv to manage dependecies"
+git push
+mkdir meteors
+
+git mv find_meteors.py meteors/
+pipenv run python meteors/find_meteors.py
