@@ -39,3 +39,7 @@ pipenv run python meteors/find_meteors.py
 git add README.md
 git commit -m "Moved file to meteors directory"
 git push
+
+
+git log (press q to quit)
+pipenv install -d ipython
